@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+.background {
+  background: linear-gradient(296.75deg, #ffffff 0.6%, #fad4e4 99.59%);
+  height: 100vh;
+}
+h2 {
+  margin: 0;
+  padding: 50px 0 0 100px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 60px;
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.create-account__text__item_size-l {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0;
+  letter-spacing: 0.02em;
+  color: #fa5d9e;
+}
+
+.create-account__text__item_size-m {
+  margin-bottom: 50px;
+}
+
+.create-account {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.create-account__text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30%;
+}
+
+.create-account__text button {
+  margin: 10px 0;
+  background-color: transparent;
+  border: 2px solid #fa5d9e;
+  border-radius: 5px;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.create-account__text button:hover {
+  scale: 1.05;
+}
+
+.img-block > img {
+  max-width: 500px;
+}
